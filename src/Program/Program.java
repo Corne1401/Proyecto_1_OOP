@@ -1,6 +1,7 @@
 package Program;
 
 import Broadcasters.Broadcasters;
+import org.jetbrains.annotations.Contract;
 
 public class Program {
     private String name;
@@ -10,7 +11,7 @@ public class Program {
     private Broadcasters broadcaster;
 
 
-    Program(String name,Schedule schedule, int duration, String musicGenre, Broadcasters broadcaster){
+    Program(String name, Schedule schedule, int duration, String musicGenre, Broadcasters broadcaster){
 
         this.name = name;
         this.schedule = schedule;

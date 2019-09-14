@@ -9,11 +9,9 @@ public class Broadcasters {
     private Sex sex;
     private String birthDay;
 
-    public Broadcasters(String id, String name, String email, String phone, String dir, String birthDay){
+    public Broadcasters(String id, String name, String dir, String birthDay){
         this.id = id;
         this.name = name;
-        this.email = email;
-        this.phone = phone;
         this.dir = dir;
         this.birthDay = birthDay;
 
@@ -67,4 +65,6 @@ public class Broadcasters {
     public void setBirthDay(String birthDay) {
         this.birthDay = birthDay;
     }
+
+
 }
